@@ -1,0 +1,38 @@
+CREATE TABLE clothes(ID INTEGER PRIMARY KEY,name TEXT,DESIGNER TEXT,SIZE TEXT,PRICE INTEGER,quantity INTEGER);
+
+
+INSERT INTO CLOTHES VALUES
+(1,"Shirt","Zara","Small",50,100);
+INSERT INTO clothes VALUES
+(2,"skirt","Gucci","medium",30,50);
+INSERT INTO clothes VALUES
+(3, "Jeans","Dior","Small",200,20);
+INSERT INTO clothes VALUES
+(4, "T-Shirt","Flannels","large",35,120);
+INSERT INTO clothes VALUES 
+(5, "DRESS","Zara","medium",60,55);
+INSERT INTO clothes VALUES
+(6, "SHORTS","Ted Baker","xlarge",25,30);
+INSERT INTO clothes VALUES
+(7, "Jumper","Gap","small",100,50);
+INSERT INTO clothes VALUES
+(8, "Cardigan","Zara","medium",62,30);
+INSERT INTO clothes VALUES
+(9, "Blazer","Gucci","large",350,25);
+INSERT INTO clothes VALUES
+(10, "Leggings","Ted Baker","XLarge",55,42);
+INSERT INTO clothes VALUES
+(11, "Tops","Dior","Large",95,113);
+INSERT INTO clothes VALUES
+(12, "SOCKS","GUCCI","ONE SIZE",25,77);
+INSERT INTO clothes VALUES
+(13, "Hat","Flannels","one size",32,10);
+INSERT INTO clothes VALUES
+(14, "Joggers","Gap","xsmall",75,15);
+INSERT INTO clothes VALUES 
+(15, "Leather Gloves","Ted Baker","one size",150,28);
+
+SELECT * FROM CLOTHES ORDER BY PRICE;
+SELECT SUM(QUANTITY) FROM CLOTHES;
+
+
